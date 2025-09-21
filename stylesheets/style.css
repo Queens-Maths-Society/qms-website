@@ -1,0 +1,74 @@
+html {
+    font-family: "Exo 2";
+    color: white;
+    font-weight: bold;
+}
+
+#banner {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+    filter: brightness(50%);
+}
+
+#navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #1a7d38;
+    margin-left: -30px;
+    right: 0px;
+}
+
+#navbar a {
+    font-size: 20px;
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar a:hover {
+    background-color: #0f4328;
+}
+
+#title {
+    padding-top: 180px;
+    width: 100%;
+    font-family: "CMU Serif";
+    font-size: 70pt;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#subtitle {
+    width: 100%;
+    font-family: "CMU Sans Serif";
+    font-size: 20pt;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#join_us {
+    width: 100%;
+    text-align: center;
+    padding-top: 240px;
+}
+
+#join_us a {
+    padding: 60px 120px;
+    background-color: #1a7d38;
+    border-radius: 20px;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+#join_us a:hover {
+    background-color: #0f4328;
+}
