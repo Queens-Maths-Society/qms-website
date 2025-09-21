@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Queens' College Mathematics Society Website">
+		<meta name="author" content="Queens' Maths Society">
+		<link rel="shortcut icon" href="img/logo/Q-favicon.ico">
+		<link rel="icon" href="img/content/QMS_logo.jpg">
+		<title>Queens' College Mathematics Society</title>
+		<!-- Global -->
+		<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+		<link rel="stylesheet" href="css/fontawesome/font-awesome.css">
+		<!-- Google Font -->
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet" type="text/css">
+		<!-- Animate -->
+		<link href="css/animate/animate.css" rel="stylesheet">
+		<!-- Simpletextrotator --> 
+		<link  rel="stylesheet" href="css/simpletextrotator/simpletextrotator.css">	
+		<!-- Set up collapsibles for events boxes-->
+ 		<!-- Use collapsible for boxes on light background, collapsible2 for boxes on dark background-->
+		 <style>
+			.collapsible {
+			  background-color: #bbb;
+			  color: black;
+			  cursor: pointer;
+			  padding: 18px;
+			  width: 100%;
+			  border: none;
+			  text-align: left;
+			  outline: none;
+			  font-size: 15px;
+			}
+			
+			.active2, .collapsible:hover {
+			  background-color: #999;
+			}
+			
+			.collapsible:after {
+			content: '\002B';
+			color: white;
+			font-weight: bold;
+			float: right;
+			margin-left: 5px;
+			}
+
+			.active2:after {
+			content: "\2212";
+			}
+			.content {
+			  padding: 0 18px;
+			  max-height: 0;
+			  overflow: hidden;
+			  transition: max-height 0.3s ease-out;
+			  background-color: #f1f1f1;
+			  color: black;
+			}
+
+			.collapsible2 {background-color: #333333;color:white}
+			
+		</style>
+		<!-- ./Set up collapsibles-->	
+		<!-- Owl Carousel -->
+		<link href="css/owl-carousel/owl.carousel.css" rel="stylesheet"> 
+		<link href="css/owl-carousel/owl.theme.css" rel="stylesheet">				
+		<!-- Colorbox -->
+		<link href="css/colorbox/colorbox.css" rel="stylesheet">
+		
+		<!-- Squared Images (editable css)-->
+		<link href="css/square-image.css" rel="stylesheet">
+
+		<!-- Theme -->
+		<link  rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/colors/green.css">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	
+	<body data-spy="scroll" data-target=".navbar-custom">
+	
+		<!-- Preloader -->
+		<div class="preloader">
+			<div class="loader-item">
+				<img src="img/content/loading.gif" alt="loader">
+			</div>
+		</div>
+		
+		<!-- navigation -->
+		<div class="navigation">
+			<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+				<div class="container">
+					<div class="navbar-header page-scroll">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+							<i class="fa fa-bars"></i>
+						</button>
+						
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+						<ul class="nav navbar-nav">
+							<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+							<li class="hidden">
+								<a href="#page-top"></a>
+							</li>
+							<li class="page-scroll">
+								<a href="#about">Welcome</a>
+							</li>
+							<li class="page-scroll">
+								<a href="#what_we_do">What we do</a>
+							</li>
+							<li class="page-scroll">
+								<a href="#upcoming_events">Upcoming Events</a>
+							</li>
+							<li class="page-scroll">
+								<a href="#previous_events">Previous Events</a>
+							</li>
+							<li class="page-scroll">
+								<a href="#team">Committee</a>
+							</li>
+							<li class="page-scroll">
+								<a href="#sponsors">Sponsors</a>
+							</li>
+							<li class="page-scroll">
+								<a href="http://qms.soc.srcf.net/content/freshers/qms-freshers-guide.pdf"> Freshers</a>
+							<li class="page-scroll">
+								<a href="#contact">Contact</a>
+							</li>
+						</ul>
+					</div>
+					<!-- ./navbar-collapse -->
+				</div>
+				<!-- ./container -->
+			</nav>
+		</div>
+		<!-- ./navigation -->
+		
+		
+		
+		<!-- intro -->
+		<section id="intro">
+			<div class="intro-overlay"></div>
+			<div class="intro-body">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+							<h1 class="brand-heading"> Queens' Maths Society</h1>
+							<p class="intro-text">The Mathematical Society of Queens' College, Cambridge</p>
+							<div class="col-sm-12" align="middle">
+								<div class="col-sm-12" align="middle">
+								<a href="#contact"> <button type="submit" class="btn-theme">How to join</button> </a>
+								</div>
+							</div>	
+							<div class="page-scroll">
+								<a href="#about" class="btn btn-square">
+									<i class="fa fa-angle-down"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>	
+		<!-- ./intro -->
+
+		<!-- about -->
+		<section id="about" class="section">
+			<div class="container">
+			
+				<div class="section-header">
+					<h1>Welcome</h1>
+					<div class="divider-dark"></div>	
+					<p>Welcome to the Queens' College Mathematics Society's website.</p>
+					<p>QMS, founded in 2014, has one mission: to create a fun, inclusive and sociable environment for members of Queens' College, both mathematicians and otherwise, to learn about and celebrate all of mathematics and its various applications.</p>	
+				</div>
+				<div class="col-sm-12" align="middle">
+					<img src="img/content/QMS_logo.jpg" alt="QMS Logo" height="250" width="350">
+				</div>	
+				<div class="col-sm-12" align="middle">
+					<a href="http://qms.soc.srcf.net/content/freshers/qms-freshers-guide.pdf"> <button type="submit" class="btn-theme">Check out our Freshers Guide</button> </a>
+				</div>	
+			
+					</div>
+				</div> 
+				
+			</div>		
+		</section>
+		<!-- ./about -->
+
+		<!-- What we do  -->
+		<section id="what_we_do" class="section dark-bg">
+			<div class="container">
+			
+				<div class="section-header">
+					<h1>What we do</h1>
+					<div class="divider-light"></div>	
+					<p>Queens' Mathematics Society serves a number of functions, including: </p>		
+				</div>
+								
+				<div class="row">					
+					<div class="col-md-4 col-sm-4">
+						<div class="icon-box-primary wow fadeInUp showdelay2">
+							<div class="icon-box-icon">
+								<i class="fa fa-bar-chart-o"></i>
+							</div>
+							<div class="icon-box-info">
+								<h4>Research Talks</h4>
+								<p>Listen to professors, lecturers and PhD students describe their cutting-edge research and mathematical interests in an accessible format</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="icon-box-primary wow fadeInUp showdelay2">
+							<div class="icon-box-icon">
+									<i class="fa fa-heart"></i>	
+							</div>
+							<div class="icon-box-info">
+								<h4>Special Events</h4>
+								<p>From garden parties to formal dinners, enjoy the chance to meet others with similar interests and to talk to leading academics about their current research</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="icon-box-primary wow fadeInUp showdelay2">
+							<div class="icon-box-icon">
+								<i class="fa fa-usd"></i>
+							</div>
+							<div class="icon-box-info">
+								<h4>Sponsored Talks</h4>
+								<p>Find out about some of the exciting internships and career opportunities available to quantitative graduates from leading industry professionals</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br><br>
+				<div class="col-sm-12" align="middle">
+					<a href="#contact"> <button type="submit" class="btn-theme">How to join</button> </a>
+				</div>	
+
+
+			</div>		
+		</section>
+		<!-- ./What we do-->
+
+		<!-- Upcoming events-->
+		<section id="upcoming_events" class="section gray-bg">
+			<div class="container">
+		
+				<div class="section-header">
+					<h1>Upcoming Events</h1>
+					<div class="divider-light"></div>	
+					<h2>Talks will resume in October</h2>
+					<div class="divider-light"></div>	
+					<p>Come along to the amazing events we have lined up. Entry is FREE, and we always have plenty of free refreshments available.</p>		
+				</div>
+								
+				<div class="row wow fadeInUp showdelay2">					
+					<div class="col-md-4 col-sm-4">
+						<img src="img/logo/QMS-512x362.png" class="img-responsive" alt="">
+						<button class="collapsible"><h4>Summer Research & Internships<h4></button>
+						<div class="content">
+							<p>Speaker: Current Students</p>
+							<p>Position: - </p>
+							<p>Location: tbc</p>
+							<p>Date: ; Time: tbc (first/second week of term)</p>
+							<p>Overview: Listen to our current students talk about their experiences completing research projects and internships over the summer, and feel free to ask them any questions you might have!</p>
+						</div>
+					</div>
+					<!-- <div class="col-md-4 col-sm-4">
+						<img src="img/logo/QMS-512x362.png" class="img-responsive" alt="">
+						<button class="collapsible"><h4>Talk title</h4></button>
+						<div class="content">
+							<p>Speaker: </p>
+							<p>Position: </p>
+							<p>Location: </p>
+							<p>Date: ; Time: </p>
+							<p>Overview: </p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<img src="img/logo/QMS-512x362.png" class="img-responsive" alt="">
+						<button class="collapsible"><h4>Talk title</h4></button>
+						<div class="content">
+							<p>Speaker: </p>
+							<p>Position: </p>
+							<p>Location: </p>
+							<p>Date: ; Time: </p>
+							<p>Overview: </p>
+						</div>
+					</div> -->
+				</div>
+			</div>
+		</section>
+		<!-- ./Upcoming events-->
+
+		<!-- Previous events - just picked some highlights from over the years-->
+		<section id="previous_events" class="section dark-bg">
+			<div class="container">
+		
+				<div class="section-header">
+					<h1>Previous Events</h1>
+					<div class="divider-light"></div>	
+					<p>Have a look at some of the highlights of the events we have held over the years</p>		
+				</div>
+								
+				<div class="row wow fadeInUp showdelay2">					
+					<div class="col-md-4 col-sm-4">
+						<button class="collapsible collapsible2"><h4>Rendezvous Search Games</h4></button>
+						<div class="content">
+							<p>Speaker: Richard Weber</p>
+							<p>Position: Churchill Professor of Mathematics for Operational Research</p>
+							<p>Overview: Professor Weber, in his pioneering work into rendezvous problems, recently solved the 'Mozart Cafe Problem' for the n=3 case. This represented the very first non-trivial solution to a rendezvous search problem in history. Find out how he did it, and what deceptively difficult rendezvous search problems remain unsolved in this cutting edge presentation by a world leader in the field.</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<button class="collapsible collapsible2"><h4>Glacial Fluid Dynamics</h4></button>
+						<div class="content">
+							<p>Speaker: Dr. Sam Pegler</p>
+							<p>Position: University Researcher in Fluid Dynamics</p>	
+							<p>Subject: Glacial Fluid Dynamics</p>
+							<p>Overview: Dr. Pegler is a Director of Studies at Queens' College, and one of the university's premier researchers into low Reynolds Number Fluid Dynamics. In this talk, he describes his research into glacial dynamics, investigating the mathematical factors which are driving the disappearence of ice shelves in the Antarctic.</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<button class="collapsible collapsible2"><h4>QMS Garden Party</h4></button>
+						<div class="content">
+							<p>The annual QMS garden party took place in the glorious sunshine, with plenty of delicious food, hearty drink and wonderful company. The event also saw the election of our new committee members.</p>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div class="row wow fadeInUp showdelay2">					
+					<div class="col-md-4 col-sm-4">
+						<button class="collapsible collapsible2"><h4>Clueless Voting</h4></button>
+						<div class="content">
+							<p>Speaker: Prof. Imre Leader</p>
+							<p>Position: Professor in DPMMS</p>	
+							<p>Subject: Clueless Voting</p>
+							<p>Overview: Our starting point is the following obviously silly question. Suppose that you want to vote in a yes/no poll on some issue, and you want your vote to be right, but you have no idea at all about the issue. What should you do?</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<button class="collapsible collapsible2"><h4>Stars with Neutron Cores</h4></button>
+						<div class="content">
+							<p>Speaker: Dr. Anna Żytkow</p>
+							<p>Position: Lecturer in Astrophysics</p>	
+							<p>Subject: Stars with Neutron Cores</p>
+							<p>Overview: Dr. Anna Żytkow is an astrophysicist who, together with Prof. Kip Thorne (scientific consultant for the film Interstellar), developed a theoretical model for a new star type, the Thorne–Żytkow object (TŻO) which contains either a neutron star or a black hole core at the center of a stellar envelope. Come along to learn more about her fascinating work and astrophysics in general.</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<button class="collapsible collapsible2"><h4>Divergent Series</h4></button>
+						<div class="content">
+							<p>Speaker: Prof. Claude Warnick</p>
+							<p>Position: Professor in DAMTP & DMPSS and our own DoS</p>	
+							<p>Subject: Divergent Series</p>
+							<p>Overview: A popular youtube video makes the claim that 1+2+3+… = -1/12. This seems strongly contradicted by our understanding from Analysis I that this series diverges. Nevertheless, it turns out that with care we can make sense of such divergent sums and even apply these results to compute real physical quantities. How can we understand this apparent paradox? And what does Bill Clinton have to do with it?</p>
+						</div>
+					</div>		
+		</section>
+		<!-- ./Previous events-->
+
+		<!-- Committee members -->
+		<section id="team" class="section">
+			<div class="container">
+			
+				<div class="section-header">
+					<h1>Committee</h1>
+					<div class="divider-dark"></div>	
+					<p>We're incredibly passionate about making Queens' Maths Society the best college maths society in Cambridge.</p>		
+				</div>
+								
+				<!-- member carousel -->
+				
+				<div id="member" class="owl-carousel  wow fadeInUp showdelay2">					
+
+					<div class="team-box item">
+						<img class="img-box square-img" src="img/committee/current/president.png" alt="Committee Picture" >
+						<div class="team-social">
+							
+						</div>
+						<div class="team-info">								
+							<h5>Olly Dobson</h5>
+							<span class="position">President</span>
+						</div>
+					</div>
+
+					<div class="team-box item">
+						<img class="img-box square-img" src="img/committee/current/vice_president.png" alt="Committee Picture">
+						<div class="team-social">
+							
+						</div>
+						<div class="team-info">								
+							<h5>Michael Lin</h5>
+							<span class="position">Vice-President</span>
+						</div>
+					</div>
+
+					<div class="team-box item">
+						<img class="img-box square-img" src="img/committee/current/secretary.png" alt="Committee Picture" height="100%">
+						<div class="team-social">
+							
+						</div>
+						<div class="team-info">								
+							<h5>Erin Keeling</h5>
+							<span class="position">Secretary</span>
+						</div>
+					</div>
+
+					<div class="team-box item">
+						<img class="img-box square-img" src="img/committee/current/treasurer.png" alt="Committee Picture" height="100%">
+						<div class="team-social">
+							
+						</div>
+						<div class="team-info">								
+							<h5>Toby Holmes</h5>
+							<span class="position">Treasurer</span>
+						</div>
+					</div>
+
+					<div class="team-box item">
+						<img class="img-box square-img" src="img/committee/current/social_secretary.png" alt="Committee Picture" height="100%">
+						<div class="team-social">
+							
+						</div>
+						<div class="team-info">								
+							<h5>Haipei Jiang</h5>
+							<span class="position">Social Secretary</span>
+						</div>
+					</div>
+
+					<div class="team-box item">
+						<img class="img-box square-img" src="img/committee/current/senior_treasurer.png" alt="Committee Picture" height="100%">
+						<div class="team-social">
+							
+						</div>
+						<div class="team-info">								
+							<h5>Dr Rajesh Bhagat</h5>
+							<span class="position">Senior Treasurer</span>
+						</div>
+					</div>					
+				</div>										
+			</div>
+		</section>	
+		<!-- ./Committee members-->
+
+		<!-- Sponsors -->
+		<section id="sponsors" class="section light-bg">
+			<div class="container">
+			
+				<div class="section-header">
+					<h1>Sponsors</h1>
+					<div class="divider-dark"></div>	
+					<p>Companies which kindly help us to provide our high quality events</p>		
+				</div>
+								
+				<div class="row wow fadeInUp showdelay2">
+					<div class="col-md-4 col-sm-4">
+					</div>
+
+					<div class="col-md-4 col-sm-4">
+						<div class="pic">
+							<a href="https://www.janestreet.com/"> <img src="img/sponsors/js-logo.jpg" alt="Jane Street"></a>
+							</div>
+						</div>
+					</div>	
+				</div>			
+			</div>		
+		</section>
+		<!-- ./Sponsors-->
+		
+		<!-- How to Join & Contact -->
+		<section id="contact" class="section dark-bg">
+			<div class="container">	
+				<!-- How to join-->
+				<div class="section-header">
+					<h1>How to Join</h1>
+					<div class="divider-light"></div>
+					<p>
+						Joining the Queens' Maths Society is simple and absolutely FREE. All Queens' members are welcome and 
+						select talks will be open to all members of the University. 
+						To join, simply come along to any event that takes your fancy, or send us an e-mail and we will
+						add you to our mailing list, so you can keep up-to-date with all the latest QMS news. You can also 
+						join our Facebook group where we will post about upcoming events.
+					</p>
+					<p>
+						Join Us!
+					</p>			
+				</div>
+				<!-- ./How to join-->
+				
+				<!-- Contact-->
+				<div class="contact-wrapper wow fadeInUp showdelay2">
+					
+					<div class="row">
+						<div class="section-header">
+							<h2>Contact Information</h2>
+							<div class="col-md-4 col-sm-4">
+								<div class="contact-box">
+									<i class="fa fa-facebook"></i>
+									<h4>Facebook</h4>
+									<a href="https://www.facebook.com/groups/737775779616811/?fref=ts">QMS - Facebook Group</a>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="contact-box">
+									<i class="fa fa-envelope"></i>
+									<h4>Email</h4>
+									<p>maths-soc@queens.cam.ac.uk</p>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="contact-box">
+									<i class="fa fa-map-marker"></i>
+									<h4>address</h4>
+									<p>Queens' College, Cambridge</p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<!-- ./Contact-->				
+			</div>		
+		</section>
+		<!-- ./How to join & contact-->
+		
+		
+		
+		<!-- footer -->
+		<section id="footer" class="section gray-bg">
+			<div class="container">
+				<h5>footer</h5>
+				<!-- social -->
+				<div class="social  wow fadeInUp showdelay2">
+					<ul class="list-inline">
+						<!--
+						<li><a href="#" class="rss"><i class="fa fa-rss"></i></a></li>
+						-->
+						<li><a href="https://www.facebook.com/groups/737775779616811/?fref=ts" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a></li>
+						<!--
+						<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#" class="plus"><i class="fa fa-plus"></i></a></li>
+						<li><a href="#" class="vk"><i class="fa fa-vk"></i></a></li>
+						<li><a href="#" class="vimeo"><i class="fa fa-vimeo-square"></i></a></li>			
+						<li><a href="#" class="github"><i class="fa fa-github"></i></a></li>
+						<li><a href="#" class="dropbox"><i class="fa fa-dropbox"></i></a></li>
+						<li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a></li>
+						-->
+					</ul>
+				</div>
+				<!-- end social -->	
+				
+				<!-- copyrights -->
+				<div class="copyrights">
+					Copyright &copy; 2024. Made with love by Navid Alam - Secretary of QMS, 2015. Last updated 1/8/24 by Erin Keeling - Secretary of QMS, 2024.
+				</div>
+				<!-- end copyrights -->	
+				
+			</div>		
+		</section>
+		<!-- ./footer -->					
+
+		
+		<!-- jQuery -->
+		<script src="js/jquery.js"></script>
+		<!-- bootstrap -->
+		<script src="js/bootstrap/bootstrap.min.js"></script>
+		<!-- modernizr -->
+		<script src="js/modernizr/modernizr.js"></script>
+		<!-- easing -->
+		<script src="js/easing/jquery.easing.1.3.js"></script>
+		<!-- simpletextrotator -->
+		<script src="js/simpletextrotator/jquery.simple-text-rotator.js"></script>
+		<!-- owl carousel -->
+		<script src="js/owl-carousel/owl.carousel.js"></script>	
+		<!-- Collapsibles-->
+		<script>
+			var coll = document.getElementsByClassName("collapsible");
+			var i;
+			
+			for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function() {
+				this.classList.toggle("active2");
+				var content = this.nextElementSibling;
+				if (content.style.maxHeight){
+				content.style.maxHeight = null;
+				} else {
+				content.style.maxHeight = content.scrollHeight + "px";
+				} 
+			});
+			}
+		</script>
+		<!-- fitvids -->
+		<script src="js/fitvids/jquery.fitvids.js"></script>
+		<!-- colorbox -->
+		<script src="js/colorbox/jquery.colorbox.js"></script>
+		<!-- totop -->
+		<script src="js/uitotop/jquery.ui.totop.min.js"></script>
+		<!-- wow -->
+		<script src="js/wow/wow.min.js"></script>
+		<!-- counterup -->
+		<script src="js/counterup/jquery.counterup.js"></script>				
+		<!-- waypoints -->
+		<script src="js/waypoints/waypoints.js"></script>
+		<!-- jqbootstrapvalidator -->
+		<script src="js/jqbootstrapvalidation/jqBootstrapValidation.js"></script>
+		
+		<!-- custom -->
+		<script src="js/custom.js"></script>
+	
+	</body>
+</html>

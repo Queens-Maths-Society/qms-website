@@ -1,0 +1,80 @@
+% Jonny's standard preamble. 
+% To include this preamble on a document, insert the following line after the \documentclass line:
+% \input{preamble.tex}
+
+%\documentclass[a4paper,11pt,twocolumn]{article}
+%\input{preamble.tex}
+
+
+\usepackage{amsmath,amsthm,amssymb,amsfonts}
+
+\usepackage[cm]{fullpage}
+%\usepackage[a4page]{geometry}
+%\usepackage[parfill]{parskip}
+\usepackage{parskip}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{bm} % Nicer bolds for vectors (including bold Greek letters and bold grad symbol)
+\usepackage{verbatim} % Include files verbatim using \verbatiminput
+
+\usepackage{graphicx}
+\usepackage{rotating}
+\usepackage{subfigure}
+% TikZ: A package for basic line drawings:
+% https://www.sharelatex.com/blog/2013/08/27/tikz-series-pt1.html
+\usepackage{tikz}
+\usetikzlibrary{arrows,shapes,shapes.geometric,shapes.misc}
+\usepackage{pgfplots}
+
+% commath: common maths things
+% http://anorien.csc.warwick.ac.uk/mirrors/CTAN/macros/latex/contrib/commath/commath.pdf 
+\usepackage{commath}
+
+\usepackage[final]{pdfpages}
+\usepackage[autostyle]{csquotes}
+
+% Some shortcuts for vector calculus. 
+\newcommand{\bs}{\boldsymbol}
+\newcommand{\grad}{\bs{\nabla}}
+\newcommand{\cross}{\times}
+\newcommand{\curl}{\grad\cross}
+\newcommand{\divg}{\grad\cdot}
+\newcommand{\DDtfull}{\left(\frac{\partial}{\partial t} + \bs{u}\cdot\grad\right)}
+\newcommand{\DDt} [1] {\frac{\mathrm{D}#1}{\mathrm{D}t}}
+\newcommand{\dDDt} [1] {\displaystyle\frac{\mathrm{D}#1}{\mathrm{D}t}} 
+
+% Asterisks: \ask
+%%% See http://tex.stackexchange.com/questions/59183/normal-high-asterisk-in-equation-mode
+%%% magic code starts
+\mathcode`*=\string"8000
+\begingroup
+\catcode`*=\active
+\xdef*{\noexpand\textup{\string*}}
+\endgroup
+%%% magic code ends
+
+% Shortcuts for some mathematical functions
+\newcommand{\sgn}{\mathrm{sgn}}
+\newcommand{\erf}{\mathrm{erf}}
+\newcommand{\erfc}{\mathrm{erfc}}
+\newcommand \reals {\mathbb{R}}
+\newcommand \complex {\mathbb{C}}
+\newcommand \Rey {\mathrm{Re}}
+
+%%% Column vectors: see http://tex.stackexchange.com/questions/2705/typesetting-column-vector
+\newcount\colveccount
+\newcommand*\colvec[1]{
+        \global\colveccount#1
+        \begin{pmatrix}
+        \colvecnext
+}
+\def\colvecnext#1{
+        #1
+        \global\advance\colveccount-1
+        \ifnum\colveccount>0
+                \\
+                \expandafter\colvecnext
+        \else
+                \end{pmatrix}
+        \fi
+}

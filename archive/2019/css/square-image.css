@@ -1,0 +1,11 @@
+.square-img {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 3/4;
+}
+
+.talk-img {
+    width: 620px;
+    height: 420px;
+    object-fit: cover;
+}

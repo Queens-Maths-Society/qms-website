@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Queens' College Maths Society Event">
+		<meta name="author" content="Queens' Maths Society">
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<title>QMS - Event</title>
+		<!-- Global -->
+		<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+		<link rel="stylesheet" href="css/fontawesome/font-awesome.css">
+		<!-- Google Font -->
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet" type="text/css">
+		<!-- Animate -->
+		<link href="css/animate/animate.css" rel="stylesheet">
+		<!-- Simpletextrotator -->
+		<link  rel="stylesheet" href="css/simpletextrotator/simpletextrotator.css">		
+		<!-- Owl Carousel -->
+		<link href="css/owl-carousel/owl.carousel.css" rel="stylesheet">
+		<link href="css/owl-carousel/owl.theme.css" rel="stylesheet">				
+		<!-- Colorbox -->
+		<link href="css/colorbox/colorbox.css" rel="stylesheet">
+		
+		<!-- Theme -->
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/colors/green.css">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	
+	<body data-spy="scroll" data-target=".navbar-custom">
+	
+		<!-- Preloader -->
+		<div class="preloader">
+			<div class="loader-item">
+				<img src="img/loading.gif" alt="loader">
+			</div>
+		</div>
+		
+		<!-- navigation -->
+		<div class="navigation">
+			<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+				<div class="container">
+					<div class="navbar-header page-scroll">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+							<i class="fa fa-bars"></i>
+						</button>
+						
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+						<ul class="nav navbar-nav">
+							<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+							<li class="hidden">
+								<a href="#page-top"></a>
+							</li>
+							<li class="page-scroll">
+								<a href="index.html#about">Welcome</a>
+							</li>
+							<li class="page-scroll">
+								<a href="index.html#what_we_do">What we do</a>
+							</li>
+							<li class="page-scroll">
+								<a href="index.html#upcoming_events">Upcoming Events</a>
+							</li>
+							<li class="page-scroll">
+								<a href="index.html#previous_events">Previous Events</a>
+							</li>
+							<li class="page-scroll">
+								<a href="index.html#team">Committee</a>
+							</li>
+							<li class="page-scroll">
+								<a href="index.html#sponsors">Sponsors</a>
+							</li>
+							<li class="page-scroll">
+								<a href="http://qms.soc.srcf.net/qms-freshers-guide.pdf"> Freshers</a>
+							<li class="page-scroll">
+								<a href="#contact">Contact</a>
+							</li>
+						</ul>
+					</div>
+					<!-- /.navbar-collapse -->
+				</div>
+				<!-- /.container -->
+			</nav>
+		</div>
+		<!-- ./navigation -->
+		
+		
+		
+		<!-- single-work -->
+		<section id="single-work" class="section">
+			<div class="container">
+											
+				<div class="row">					
+					<div class="col-md-8 col-sm-8">						
+            <div class="img-responsive"><img src="img/event_pictures/f1.jpg" alt="" height="420px" width="620px"></div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<ul class="work-detail-list">
+							<li><span>Speaker :</span>Dr Matt Saxton</li>
+              <!-- <li><span>Position :</span>Lecturer in DPMMS</li> -->
+              <li><span>Subject :</span>Fire, Facebook and Formula One - An Introduction to Industrial Mathematics</li>
+              <li><span>Location :</span>Erasmus Room - Queens' College</li>
+              <li><span>Date/Time :</span>Wednesday 12th October ; 7:00pm</li>
+						</ul>
+						<hr>
+            <!-- <h4>Overview </h4>	 -->
+            <!-- <p>Our starting point is the following obviously silly question. Suppose that you want to vote in a yes/no poll on some issue, and you want your vote to be right, but you have no idea at all about the issue. What should you do?</p> -->
+					</div>
+				</div>
+				
+			</div>		
+		</section>
+		<!-- ./single-work -->
+		
+
+		
+		<!-- works -->
+		<section id="works" class="section gray-bg">
+			<div class="container">
+				
+				<div class="section-header">
+					<h1>Other Events</h1>
+					<div class="divider-dark"></div>							
+				</div>
+								
+				<div class="row wow fadeInUp showdelay2">					
+					<div class="col-md-4 col-sm-4">
+						<div class="pic">
+              <a href="previousevent1.html"> <img src="img/event_pictures/vote.jpg" class="img-responsive" alt=""></a>
+						</div>
+						<div class="icon-box-info">
+								<h4>Clueless Voting</h4>
+								<h5>Prof. Imre Leader</h5>
+								<p>Thurs 21/01 ; 7:00pm</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="pic">
+              <a href="previousevent2.html"> <img src="img/event_pictures/star.jpg" class="img-responsive" alt=""></a>
+						</div>
+						<div class="icon-box-info">
+								<h4>Stars with Neutron Cores</h4>
+								<h5>Dr. Anna Żytkow</h5>
+								<p>Weds 03/02; 7:00pm</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="pic">
+              <img src="img/event_pictures/crypto.jpg" class="img-responsive" alt="">
+							</div>
+						</div>
+						<div class="icon-box-info">
+                <h4>Cryptography and the Colossus Computer</h4>
+								<h5>Alex Chan</h5>
+								<p>Weds 17/02; 7:00pm</p>
+						</div>
+					</div>	
+					<div class="col-sm-12" align="middle">
+						<a href="#contact"> <button type="submit" class="btn-theme">How to join</button> </a>
+					</div>				
+				</div>
+								
+			</div>		
+		</section>
+		<!-- ./works -->
+		
+		
+	
+		<!-- Contact -->
+		<section id="contact" class="section dark-bg">
+			<div class="container">	
+			
+				<div class="section-header">
+					<h1>How to Join</h1>
+					<div class="divider-light"></div>
+					<p>Joining the Queens' Maths Society is simple, absolutely FREE, and all Queens' members are welcome. To join, simply come along to any event that takes your fancy, or send us an e-mail so that we can add you to our mailing list. That way you can keep up-to-date with the latest QMS news. You can also join our Facebook group where we will post about upcoming events.</p><p>Join Us!</p>				
+				</div>
+				
+				
+				<div class="contact-wrapper wow fadeInUp showdelay2">
+					
+					<div class="row">
+						<div class="contact-info">
+							<h2>Contact Information</h2>
+							<div class="col-md-4 col-sm-4">
+								<div class="contact-box">
+									<i class="fa fa-facebook"></i>
+									<h4>Facebook</h4>
+									<a href="https://www.facebook.com/groups/737775779616811/?fref=ts">QMS - Facebook Group</a>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="contact-box">
+									<i class="fa fa-envelope"></i>
+									<h4>Email</h4>
+									<p>quen-maths-soc-committee@lists.cam.ac.uk
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="contact-box">
+									<i class="fa fa-map-marker"></i>
+									<h4>address</h4>
+									<p>Queens' College, Cambridge</p>
+								</div>
+							</div>
+						</div>
+					</div>	
+					
+				</div>
+								
+			</div>		
+		</section>
+		<!-- ./contact -->
+		
+		
+		
+		<!-- footer -->
+		<section id="footer" class="section gray-bg">
+			<div class="container">
+				<h5>footer</h5>
+				<!-- social -->
+				<div class="social  wow fadeInUp showdelay2">
+					<ul class="list-inline">
+						<!--
+						<li><a href="#" class="rss"><i class="fa fa-rss"></i></a></li>
+						-->
+						<li><a href="https://www.facebook.com/groups/737775779616811/?fref=ts" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a></li>
+						<!--
+						<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#" class="plus"><i class="fa fa-plus"></i></a></li>
+						<li><a href="#" class="vk"><i class="fa fa-vk"></i></a></li>
+						<li><a href="#" class="vimeo"><i class="fa fa-vimeo-square"></i></a></li>			
+						<li><a href="#" class="github"><i class="fa fa-github"></i></a></li>
+						<li><a href="#" class="dropbox"><i class="fa fa-dropbox"></i></a></li>
+						<li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a></li>
+						-->
+					</ul>
+				</div>
+				<!-- end social -->	
+				
+				<!-- copyrights -->
+				<div class="copyrights">
+					Copyright &copy; 2015. Made with love by Anand Patel - Secretary of QMS.
+				</div>
+				<!-- end copyrights -->	
+				
+			</div>		
+		</section>
+		<!-- ./footer -->
+												
+											
+								
+		<!-- jQuery -->
+		<script src="js/jquery.js"></script>
+		<!-- bootstrap -->
+		<script src="js/bootstrap/bootstrap.min.js"></script>
+		<!-- modernizr -->
+		<script src="js/modernizr/modernizr.js"></script>
+		<!-- easing -->
+		<script src="js/easing/jquery.easing.1.3.js"></script>
+		<!-- simpletextrotator -->
+		<script src="js/simpletextrotator/jquery.simple-text-rotator.js"></script>
+		<!-- owl carousel -->
+		<script src="js/owl-carousel/owl.carousel.js"></script>	
+		<!-- fitvids -->
+		<script src="js/fitvids/jquery.fitvids.js"></script>
+		<!-- colorbox -->
+		<script src="js/colorbox/jquery.colorbox.js"></script>
+		<!-- totop -->
+		<script src="js/uitotop/jquery.ui.totop.min.js"></script>
+		<!-- wow -->
+		<script src="js/wow/wow.min.js"></script>
+		<!-- counterup -->
+		<script src="js/counterup/jquery.counterup.js"></script>				
+		<!-- waypoints -->
+		<script src="js/waypoints/waypoints.js"></script>
+		<!-- jqbootstrapvalidator -->
+		<script src="js/jqbootstrapvalidation/jqBootstrapValidation.js"></script>
+							
+		<!-- switcher ** Remove this on production  ** -->
+		<script src="js/switcher.js"></script>
+		
+		<!-- custom -->
+		<script src="js/custom.js"></script>
+		
+		
+		
+		
+		
+	</body>
+</html>
