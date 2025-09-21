@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Exo 2";
+    src: url("Exo2-VariableFont_wght.ttf") format("truetype");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Exo 2";
+    src: url("Exo2-Italic-VariableFont_wght.ttf") format("truetype");
+    font-style: italic;
+}
