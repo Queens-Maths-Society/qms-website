@@ -186,16 +186,21 @@ body {
     text-align: center;
     position: relative;
     padding-top: 10px;
-    left: 40%;
-    width: 20%;
+    left: 35%;
+    width: 30%;
 }
 
 .footer_social_media a {
     display: block;
     float: left;
     width: 50%;
-    padding: 50px 0px;
     font-size: 60pt;
+}
+
+.footer_social_media a img {
+    padding: 5% 5%;
+    width: 60%;
+    height: 60%;
 }
 
 .footer p {
@@ -322,5 +327,24 @@ body {
         padding: 0% 10%;
         padding-top: 170px;
         font-size: 10pt;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        color: white;
+        background-color: #1f2e26;
+    }
+
+    #background_image {
+        filter: brightness(30%);
+    }
+
+    .navbar {
+        background-color: #15662d;
+    }
+
+    .footer {
+        background-color: #11472b;
     }
 }

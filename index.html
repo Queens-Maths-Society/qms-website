@@ -57,7 +57,19 @@
             join.
         </p>
 
-        <img id="logo" src="./img/logo-512x362.png" />
+        <picture id="logo">
+            <source
+                srcset="./img/logo-512x362.png"
+                media="(prefers-color-scheme: light)"
+            />
+
+            <source
+                srcset="./img/dark-mode-logo-512x362.png"
+                media="(prefers-color-scheme: dark)"
+            />
+
+            <img src="./img/logo-512x362.png" />
+        </picture>
 
         <h1 class="section_title" id="freshers_guide_title">
             Are you a fresher?
@@ -109,10 +121,15 @@
         </div>
 
         <div class="footer">
-            <div class="footer_social_media"><a>I</a> <a>E</a></div>
+            <div class="footer_social_media">
+                <a href="https://www.instagram.com/queens_maths_society/"
+                    ><img src="./img/instagram.png"
+                /></a>
+                <a href="mailto:qms@srcf.net"><img src="./img/email.png" /></a>
+            </div>
 
             <p>
-                Copyright 2025. Made with love by Ben Balaam, QMS Secretary
+                Copyright © 2025. Made with love by Ben Balaam, QMS Secretary
                 2025, with help from the other committee members, partially
                 based on the previous version of the website, designed by Navid
                 Alam, QMS Secretary 2015 and last updated by Erin Keeling, QMS

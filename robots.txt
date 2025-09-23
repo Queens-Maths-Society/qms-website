@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /archive/
+Disallow: /img/not_used/
+Disallow: /.gitignore
+Disallow: /README.md
+Disallow: /TODO.md
