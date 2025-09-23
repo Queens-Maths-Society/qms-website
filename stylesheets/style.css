@@ -112,10 +112,11 @@ body {
     font-size: 40pt;
 }
 
-#logo {
+#logo img {
     position: relative;
     left: 36%;
     width: 28%;
+    object-fit: fill;
 }
 
 #freshers_guide_title {
@@ -309,7 +310,7 @@ body {
         width: 70%;
     }
 
-    #logo {
+    #logo img {
         left: 10%;
         width: 80%;
     }
