@@ -291,6 +291,47 @@ body {
     font-size: 15pt;
 }
 
+#subject_contact_subtitle {
+    padding-left: 30px;
+    font-size: 35pt;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#subject_contact_text_box {
+    position: relative;
+    margin-left: 50px;
+    left: 0%;
+    width: 60%;
+}
+
+#subject_contact_text_box h3 {
+    font-size: 20pt;
+    display: block;
+    float: left;
+    padding: 5% 5%;
+    padding-bottom: 0px;
+    width: 23%;
+    text-decoration: none;
+    text-align: center;
+}
+
+#subject_contact_box {
+    position: relative;
+    margin-left: 50px;
+    left: 0%;
+    width: 60%;
+}
+
+#subject_contact_box img {
+    display: block;
+    float: left;
+    margin: 5% 5%;
+    margin-top: 0px;
+    width: 23%;
+    text-align: center;
+}
+
 /* Membership Page */
 
 #how_do_i_join {
