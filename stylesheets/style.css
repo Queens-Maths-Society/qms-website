@@ -176,6 +176,45 @@ body {
     font-size: 40px;
 }
 
+.article_title {
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40pt;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.article_authors {
+    text-align: center;
+    font-size: 15pt;
+    font-weight: normal;
+}
+
+.article_body {
+    position: relative;
+    left: 25%;
+    width: 50%;
+    font-weight: normal;
+    font-size: 15pt;
+    text-align: left;
+    padding-bottom: 60px;
+}
+
+.article_body h2 {
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+.article_body h3 {
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+.article_body h4 {
+    font-size: 20pt;
+}
+
 .footer {
     font-family: "Exo 2", "Computer Modern Sans";
     position: relative;
@@ -220,7 +259,6 @@ body {
 #our_committee {
     padding-top: 100px;
     font-size: 40pt;
-    font-family: "Computer Modern Sans";
 }
 
 #committee_list {
@@ -253,6 +291,227 @@ body {
     font-size: 15pt;
 }
 
+/* Membership Page */
+
+#how_do_i_join {
+    padding-top: 100px;
+    font-size: 40pt;
+}
+
+#join_text_box {
+    position: relative;
+    left: 35%;
+    width: 30%;
+}
+
+#join_text_box a {
+    font-family: "Computer Modern Sans";
+    font-size: 15pt;
+    display: block;
+    float: left;
+    padding: 5% 5%;
+    padding-bottom: 0px;
+    width: 40%;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+#join_box {
+    position: relative;
+    left: 35%;
+    width: 30%;
+}
+
+#join_box a {
+    display: block;
+    float: left;
+    padding: 5% 5%;
+    padding-top: 0px;
+    width: 40%;
+    text-align: center;
+}
+
+#join_box a picture img {
+    width: 80%;
+}
+
+#what_do_i_get {
+    padding-top: 280px;
+    font-size: 40pt;
+}
+
+#joining_benefits {
+    padding-bottom: 150px;
+}
+
+/* Events Page */
+
+#upcoming_events_title {
+    padding-top: 100px;
+    font-size: 40pt;
+}
+
+#past_events_title {
+    padding-top: 50px;
+    font-size: 40pt;
+}
+
+#upcoming_events_list {
+    position: relative;
+    padding: 2.5%;
+    left: 20%;
+    width: 55%;
+    color: white;
+}
+
+#past_events_list {
+    position: relative;
+    padding: 2.5%;
+    left: 20%;
+    width: 55%;
+    color: white;
+    padding-bottom: 60px;
+}
+
+.event_box {
+    position: relative;
+    background-color: #1a7238;
+    padding: 10px 0px;
+    margin: 20px 0px;
+    width: 100%;
+}
+
+.colour_box {
+    position: absolute;
+    padding: 0px;
+    margin: -10px;
+    width: 5%;
+    height: 100%;
+}
+
+.event_box h1 {
+    position: relative;
+    left: 9%;
+    width: 80%;
+}
+
+.event_box h2 {
+    position: relative;
+    left: 9%;
+    width: 80%;
+}
+
+.event_box p {
+    position: relative;
+    left: 9%;
+    width: 80%;
+}
+
+/* Sponsors Page */
+
+#our_sponsors {
+    padding-top: 100px;
+    font-size: 40pt;
+}
+
+#sponsors_list {
+    margin-bottom: 50px;
+}
+
+.sponsors_list_item {
+    display: block;
+    height: 250px;
+    width: 90%;
+    text-decoration: none;
+    color: black;
+}
+
+.sponsors_list_item img {
+    height: 250px;
+    float: left;
+    display: block;
+    margin: 0px 50px;
+}
+
+.sponsors_list_item h1 {
+    font-size: 35pt;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.sponsors_list_item p {
+    font-size: 15pt;
+}
+
+/* History Page */
+
+#timeline {
+    position: relative;
+    left: 35%;
+    width: 30%;
+}
+
+.timeline_entry {
+    position: absolute;
+}
+.timeline_entry p {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    top: 5px;
+    left: 80px;
+    font-size: 15pt;
+    font-weight: normal;
+    width: 120%;
+}
+
+svg circle {
+    fill: black;
+}
+
+svg rect {
+    fill: black;
+}
+
+/* Contact Us Page */
+
+#how_to_contact_us {
+    padding-top: 100px;
+    font-size: 40pt;
+}
+
+#emails_subtitle {
+    font-size: 30pt;
+    text-align: center;
+}
+
+#contact_us_container {
+    padding-bottom: 60px;
+}
+
+.contact_us_box {
+    position: relative;
+    left: 25%;
+    width: 45%;
+    background-color: #1a7238;
+    color: white;
+    margin: 20px 0px;
+    padding: 10px 1.5%;
+}
+
+.contact_us_box h3 {
+    font-weight: bold;
+    font-size: 25pt;
+    padding: 0px 0px;
+    margin: 5px 0px;
+}
+
+.contact_us_box a {
+    text-decoration: none;
+    color: #88ffaf;
+}
+
 /* Variations for different aspect ratios */
 
 @media screen and (width <= 1520px) {
@@ -283,6 +542,13 @@ body {
         padding: 5% 5%;
         width: 90%;
         height: 90%;
+    }
+
+    /* History Page */
+
+    #timeline {
+        left: 30%;
+        width: 40%;
     }
 }
 
@@ -416,6 +682,146 @@ body {
         left: 5%;
         width: 90%;
     }
+
+    /* Membership Page */
+
+    #how_do_i_join {
+        font-size: 35pt;
+    }
+
+    #join_text_box {
+        left: 10%;
+        width: 80%;
+    }
+
+    #join_text_box a {
+        padding: 5% 5%;
+        width: 40%;
+    }
+
+    #join_box {
+        left: 10%;
+        width: 80%;
+    }
+
+    #join_box a {
+        padding: 5% 5%;
+        width: 40%;
+    }
+
+    #what_do_i_get {
+        padding-top: 400px;
+        font-size: 35pt;
+    }
+
+    /* Events Page */
+
+    #upcoming_events_title {
+        font-size: 30pt;
+    }
+
+    #past_events_title {
+        font-size: 30pt;
+    }
+
+    #upcoming_events_list {
+        left: 10%;
+        width: 75%;
+    }
+
+    #past_events_list {
+        padding: 2.5%;
+        left: 10%;
+        width: 75%;
+        padding-bottom: 60px;
+    }
+
+    .colour_box {
+        width: 10%;
+    }
+
+    .event_box h1 {
+        left: 15%;
+    }
+
+    .event_box h2 {
+        left: 15%;
+    }
+
+    .event_box p {
+        left: 15%;
+    }
+
+    /* Freshers Page */
+
+    #freshers_guide {
+        font-size: 30pt;
+    }
+
+    #freshers_guide_body {
+        left: 15%;
+        width: 70%;
+        font-size: 15pt;
+    }
+
+    /* Sponsors Page */
+
+    .sponsors_list_item {
+        height: 500px;
+        width: 100%;
+    }
+
+    .sponsors_list_item img {
+        position: relative;
+        left: 50%;
+        height: 200px;
+        margin: 50px -100px;
+    }
+
+    .sponsors_list_item h1 {
+        position: relative;
+        padding-top: 300px;
+        font-size: 25pt;
+        text-align: center;
+    }
+
+    .sponsors_list_item p {
+        position: relative;
+        text-align: center;
+        left: 5%;
+        width: 90%;
+    }
+
+    /* History Page */
+
+    #timeline {
+        left: 10%;
+        width: 100%;
+    }
+
+    .timeline_entry p {
+        width: 80%;
+    }
+
+    /* Contact Us Page */
+
+    #how_to_contact_us {
+        font-size: 40pt;
+    }
+
+    #emails_subtitle {
+        font-size: 30pt;
+    }
+
+    .contact_us_box {
+        left: 15%;
+        width: 65%;
+        padding: 10px 2.5%;
+    }
+
+    .contact_us_box h3 {
+        font-size: 25pt;
+    }
 }
 
 /* Variations for dark mode */
@@ -438,5 +844,27 @@ body {
 
     .footer {
         background-color: #11472b;
+    }
+
+    /* Membership Page */
+
+    #join_text_box a {
+        color: white;
+    }
+
+    /* Sponsors Page */
+
+    .sponsors_list_item {
+        color: white;
+    }
+
+    /* History Page */
+
+    svg circle {
+        fill: white;
+    }
+
+    svg rect {
+        fill: white;
     }
 }
