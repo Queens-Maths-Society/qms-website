@@ -13,7 +13,7 @@ async function main() {
         let timeline_entry = document.createElement("div");
         timeline_entry.className = "timeline_entry";
 
-        timeline_entry.style.top = 180 + y + "px";
+        timeline_entry.style.top = 190 + y + "px";
 
         let svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
 
@@ -53,7 +53,7 @@ async function main() {
 
         timeline.appendChild(timeline_entry);
 
-        y += 180;
+        y += 190;
     }
 }
 

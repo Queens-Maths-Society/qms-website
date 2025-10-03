@@ -5,6 +5,7 @@ html {
     color: black;
     background-color: white;
     font-weight: bold;
+    font-size: 20px;
 }
 
 body {
@@ -49,7 +50,7 @@ body {
 #title {
     padding-top: 180px;
     width: 100%;
-    font-size: 70pt;
+    font-size: 90px;
     text-align: center;
     margin-bottom: 0px;
     color: white;
@@ -58,7 +59,7 @@ body {
 #subtitle {
     width: 100%;
     font-family: "Computer Modern Sans";
-    font-size: 20pt;
+    font-size: 25px;
     text-align: center;
     margin-top: 0px;
     color: white;
@@ -91,7 +92,7 @@ body {
     left: 30%;
     width: 40%;
     text-align: center;
-    font-size: 15pt;
+    font-size: 20px;
     font-weight: normal;
 }
 
@@ -109,7 +110,7 @@ body {
 
 #welcome {
     padding-top: 300px;
-    font-size: 40pt;
+    font-size: 50px;
 }
 
 #logo img {
@@ -120,7 +121,7 @@ body {
 }
 
 #freshers_guide_title {
-    font-size: 30pt;
+    font-size: 40px;
 }
 
 #freshers_guide {
@@ -134,7 +135,7 @@ body {
 }
 
 #what_we_do_title {
-    font-size: 40pt;
+    font-size: 50px;
     margin-bottom: 10px;
 }
 
@@ -158,11 +159,11 @@ body {
 }
 
 .what_we_do_box h1 {
-    font-size: 25pt;
+    font-size: 30px;
 }
 
 .what_we_do_box p {
-    font-size: 15pt;
+    font-size: 20px;
     font-weight: normal;
 }
 
@@ -180,39 +181,39 @@ body {
     width: 100%;
     text-align: center;
     padding-top: 100px;
-    font-size: 40pt;
+    font-size: 50px;
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
 
 .article_authors {
     text-align: center;
-    font-size: 15pt;
+    font-size: 20px;
     font-weight: normal;
 }
 
 .article_body {
     position: relative;
-    left: 25%;
-    width: 50%;
+    left: 10%;
+    width: 80%;
     font-weight: normal;
-    font-size: 15pt;
+    font-size: 20px;
     text-align: left;
     padding-bottom: 60px;
 }
 
 .article_body h2 {
-    font-size: 30pt;
+    font-size: 40px;
     font-weight: bold;
 }
 
 .article_body h3 {
-    font-size: 25pt;
+    font-size: 30px;
     font-weight: bold;
 }
 
 .article_body h4 {
-    font-size: 20pt;
+    font-size: 25px;
 }
 
 .footer {
@@ -236,7 +237,7 @@ body {
     display: block;
     float: left;
     width: 50%;
-    font-size: 60pt;
+    font-size: 80px;
 }
 
 .footer_social_media a img {
@@ -250,7 +251,7 @@ body {
     padding-top: 200px;
     color: white;
     text-align: center;
-    font-size: 15pt;
+    font-size: 20px;
     font-weight: normal;
 }
 
@@ -258,7 +259,7 @@ body {
 
 #our_committee {
     padding-top: 100px;
-    font-size: 40pt;
+    font-size: 50px;
 }
 
 #committee_list {
@@ -277,7 +278,7 @@ body {
 }
 
 .committee_list_item h1 {
-    font-size: 35pt;
+    font-size: 45px;
     font-weight: bold;
     margin-bottom: 0;
 }
@@ -288,12 +289,12 @@ body {
 }
 
 .committee_list_item p {
-    font-size: 15pt;
+    font-size: 20px;
 }
 
 #subject_contact_subtitle {
     padding-left: 30px;
-    font-size: 35pt;
+    font-size: 45px;
     font-weight: bold;
     margin-bottom: 0;
 }
@@ -306,7 +307,7 @@ body {
 }
 
 #subject_contact_text_box h3 {
-    font-size: 20pt;
+    font-size: 25px;
     display: block;
     float: left;
     padding: 5% 5%;
@@ -336,7 +337,7 @@ body {
 
 #how_do_i_join {
     padding-top: 100px;
-    font-size: 40pt;
+    font-size: 50px;
 }
 
 #join_text_box {
@@ -347,7 +348,7 @@ body {
 
 #join_text_box a {
     font-family: "Computer Modern Sans";
-    font-size: 15pt;
+    font-size: 20px;
     display: block;
     float: left;
     padding: 5% 5%;
@@ -379,7 +380,7 @@ body {
 
 #what_do_i_get {
     padding-top: 280px;
-    font-size: 40pt;
+    font-size: 50px;
 }
 
 #joining_benefits {
@@ -390,12 +391,12 @@ body {
 
 #upcoming_events_title {
     padding-top: 100px;
-    font-size: 40pt;
+    font-size: 50px;
 }
 
 #past_events_title {
     padding-top: 50px;
-    font-size: 40pt;
+    font-size: 50px;
 }
 
 #upcoming_events_list {
@@ -453,7 +454,7 @@ body {
 
 #our_sponsors {
     padding-top: 100px;
-    font-size: 40pt;
+    font-size: 50px;
 }
 
 #sponsors_list {
@@ -476,13 +477,13 @@ body {
 }
 
 .sponsors_list_item h1 {
-    font-size: 35pt;
+    font-size: 45px;
     font-weight: bold;
     margin-bottom: 0;
 }
 
 .sponsors_list_item p {
-    font-size: 15pt;
+    font-size: 20px;
 }
 
 /* History Page */
@@ -502,7 +503,7 @@ body {
     margin: 0px;
     top: 5px;
     left: 80px;
-    font-size: 15pt;
+    font-size: 20px;
     font-weight: normal;
     width: 120%;
 }
@@ -519,11 +520,11 @@ svg rect {
 
 #how_to_contact_us {
     padding-top: 100px;
-    font-size: 40pt;
+    font-size: 50px;
 }
 
 #emails_subtitle {
-    font-size: 30pt;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -543,7 +544,7 @@ svg rect {
 
 .contact_us_box h3 {
     font-weight: bold;
-    font-size: 25pt;
+    font-size: 30px;
     padding: 0px 0px;
     margin: 5px 0px;
 }
@@ -597,17 +598,17 @@ svg rect {
     /* Main Page and Shared */
 
     .navbar a {
-        font-size: 12px;
+        font-size: 16px;
         padding: 10px 10px;
     }
 
     #title {
         padding-top: 180px;
-        font-size: 40pt;
+        font-size: 45px;
     }
 
     #subtitle {
-        font-size: 15pt;
+        font-size: 20px;
         width: 90%;
         margin: 0 5%;
     }
@@ -617,13 +618,17 @@ svg rect {
         width: 70%;
     }
 
+    #join_us a {
+        font-size: 30px;
+    }
+
     #logo img {
         left: 10%;
         width: 80%;
     }
 
     #freshers_guide_title {
-        font-size: 25pt;
+        font-size: 30px;
     }
 
     #freshers_guide {
@@ -633,11 +638,11 @@ svg rect {
 
     #freshers_guide a {
         padding: 50px 50px;
-        font-size: 35px;
+        font-size: 20px;
     }
 
     #what_we_do_title {
-        font-size: 30pt;
+        font-size: 40px;
         margin-bottom: 10px;
     }
 
@@ -654,11 +659,11 @@ svg rect {
     }
 
     .what_we_do_box h1 {
-        font-size: 20pt;
+        font-size: 25px;
     }
 
     .what_we_do_box p {
-        font-size: 15pt;
+        font-size: 20px;
     }
 
     #events_button {
@@ -668,7 +673,7 @@ svg rect {
 
     #events_button a {
         padding: 50px 80px;
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .footer {
@@ -688,27 +693,28 @@ svg rect {
     .footer p {
         padding: 0% 10%;
         padding-top: 170px;
-        font-size: 10pt;
+        font-size: 12px;
     }
 
     /* Committee Page */
 
     .committee_list_item {
         height: 500px;
+        padding-top: 150px;
     }
 
     .committee_list_item img {
         position: relative;
         left: 20%;
         width: 60%;
-        height: 200px;
+        height: auto;
         margin: 50px 0px;
     }
 
     .committee_list_item h1 {
         position: relative;
-        padding-top: 300px;
-        font-size: 25pt;
+        padding-top: 400px;
+        font-size: 30px;
         text-align: center;
     }
 
@@ -724,10 +730,30 @@ svg rect {
         width: 90%;
     }
 
+    #subject_contact_subtitle {
+        padding-top: 200px;
+    }
+
+    #subject_contact_text_box {
+        margin-left: 0px;
+        left: 10%;
+        width: 80%;
+    }
+
+    #subject_contact_text_box h3 {
+        font-size: 20px;
+    }
+
+    #subject_contact_box {
+        margin-left: 0px;
+        left: 10%;
+        width: 80%;
+    }
+
     /* Membership Page */
 
     #how_do_i_join {
-        font-size: 35pt;
+        font-size: 45px;
     }
 
     #join_text_box {
@@ -752,17 +778,17 @@ svg rect {
 
     #what_do_i_get {
         padding-top: 400px;
-        font-size: 35pt;
+        font-size: 45px;
     }
 
     /* Events Page */
 
     #upcoming_events_title {
-        font-size: 30pt;
+        font-size: 40px;
     }
 
     #past_events_title {
-        font-size: 30pt;
+        font-size: 40px;
     }
 
     #upcoming_events_list {
@@ -783,10 +809,12 @@ svg rect {
 
     .event_box h1 {
         left: 15%;
+        font-size: 25px;
     }
 
     .event_box h2 {
         left: 15%;
+        font-size: 25px;
     }
 
     .event_box p {
@@ -795,17 +823,25 @@ svg rect {
 
     /* Freshers Page */
 
-    #freshers_guide {
-        font-size: 30pt;
+    #article_title {
+        font-size: 40px;
     }
 
-    #freshers_guide_body {
+    #article_body {
         left: 15%;
         width: 70%;
-        font-size: 15pt;
+        font-size: 20px;
     }
 
     /* Sponsors Page */
+
+    #our_sponsors {
+        font-size: 40px;
+    }
+
+    #sponsors_list {
+        margin-bottom: 120px;
+    }
 
     .sponsors_list_item {
         height: 500px;
@@ -822,7 +858,7 @@ svg rect {
     .sponsors_list_item h1 {
         position: relative;
         padding-top: 300px;
-        font-size: 25pt;
+        font-size: 30px;
         text-align: center;
     }
 
@@ -836,22 +872,22 @@ svg rect {
     /* History Page */
 
     #timeline {
-        left: 10%;
-        width: 100%;
+        left: 5%;
+        width: 95%;
     }
 
     .timeline_entry p {
-        width: 80%;
+        width: 70%;
     }
 
     /* Contact Us Page */
 
     #how_to_contact_us {
-        font-size: 40pt;
+        font-size: 50px;
     }
 
     #emails_subtitle {
-        font-size: 30pt;
+        font-size: 40px;
     }
 
     .contact_us_box {
@@ -861,7 +897,7 @@ svg rect {
     }
 
     .contact_us_box h3 {
-        font-size: 25pt;
+        font-size: 30px;
     }
 }
 
