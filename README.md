@@ -6,6 +6,6 @@ The current iteration of the website was designed and implemented by Ben Balaam,
 
 Currently this is just a static site, so there is no build process, just put the files into the correct place on the SRCF server and it *should* work.
 
-The current development version of the website is viewable at: <https://queens-maths-society.github.io/qms-website/>.
+The current development version of the website is viewable at: <https://queens-maths-society.github.io/qms-website/public_html/>.
 
 Any questions should be directed to whoever is the current QMS Secretary, emailable at: <qms-secretary@srcf.net>.
