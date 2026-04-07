@@ -122,6 +122,19 @@ body {
     object-fit: fill;
 }
 
+#constitution {
+    font-family: "Exo 2", "Computer Modern Sans";
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+#constitution a {
+    padding: 60px 120px;
+    font-size: 40px;
+}
+
 #freshers_guide_title {
     font-size: 40px;
 }
@@ -641,6 +654,16 @@ svg rect {
     }
 
     #freshers_guide a {
+        padding: 50px 50px;
+        font-size: 20px;
+    }
+
+    #constitution {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    #constitution a {
         padding: 50px 50px;
         font-size: 20px;
     }
